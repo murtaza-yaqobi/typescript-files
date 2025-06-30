@@ -91,8 +91,9 @@ var Colors;
     Colors["green"] = "Green Color";
     Colors["white"] = "White Color";
     Colors["yellow"] = "Yellow Color";
+    Colors["gray"] = "Gray Color";
 })(Colors || (Colors = {}));
-console.log(Colors.blue);
+console.log(Colors.gray);
 // tuple => like array
 var tupleArr = ["Ali", 17, true, "Male"];
 console.log(tupleArr[3]);

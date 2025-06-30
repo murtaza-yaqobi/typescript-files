@@ -94,7 +94,7 @@ enum Colors {
   yellow = "Yellow Color",
   gray = "Gray Color",
 }
-console.log(Colors.blue);
+console.log(Colors.gray);
 
 // tuple => like array
 let tupleArr: [string, number, boolean, string] = ["Ali", 17, true, "Male"];
