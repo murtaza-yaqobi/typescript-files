@@ -92,6 +92,7 @@ enum Colors {
   green = "Green Color",
   white = "White Color",
   yellow = "Yellow Color",
+  gray = "Gray Color",
 }
 console.log(Colors.blue);
 
