@@ -108,3 +108,32 @@
 // ];
 // console.log(tupleArr2[0]);
 
+// function overloading
+function zarb(a: number, b: number): number;
+function zarb(a: string, b: string): string;
+function zarb(a: number | string, b: number | string): number | string {
+  if (typeof a === "number" && typeof b === "number") {
+    return a * b;
+  }
+  if (typeof a === "string" && typeof b === "string") {
+    return a + b;
+  }
+  throw new Error("Invalid Data Type");
+}
+console.log(zarb(9, 5));
+console.log(zarb("Mohammad ", "Ali"));
+
+// my e.g: of function overloading
+function myEg(z: string, y: string): string;
+function myEg(z: number, y: number): number;
+function myEg(z: string | number, y: string | number): string | number {
+  if (typeof z === "string" && typeof y === "string") {
+    return z + y;
+  }
+  if (typeof z === "number" && typeof y === "number") {
+    return z + y;
+  }
+  throw new Error("Your message is not valid!");
+}
+console.log(myEg(30, 33));
+console.log(myEg("Murtaza ", "Yaqobi"));

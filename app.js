@@ -19,81 +19,26 @@
 //   console.log(`Hello, ${name} welcome`);
 // }
 // Gretting("Murtaza");
-// // card 2
-// function Numbers(number1: number, number2: number): number {
-//   return number1 + number2;
-// }
-// console.log(Numbers(100, 50));
-// // card 3
-// function Add(name: string, age?: number): void {
-//   console.log(`My name is ${name} and I'm ${age} old!`);
-// }
-// Add("Murtaza", 17);
-// // never
-// let result: string;
-// function Salaam(name: string, age?: number): never {
-//   while (true) {
-//     result = "Hi there";
-//   }
-// }
-// // defualt argument 1
-// function Greet1(name: string = "Murtaza Yaqobi"): void {
-//   console.log(`Hello, I'm ${name} and I'm a student of programming class.`);
-// }
-// Greet1();
-// // defualt argument 2
-// function Greet2(
-//   className: string,
-//   massege: string = "Hello, students today is the first day of engish class"
-// ): void {
-//   console.log(`${className}: ${massege}`);
-// }
-// Greet2("Afshar12 ");
-// // rested parameter 1
-// function Jam(...a: number[]): void {
-//   let natija = 0;
-//   for (let num of a) {
-//     natija += num;
-//   }
-//   console.log(natija);
-// }
-// Jam(100, 12, 12, 4, 20, 100);
-// // rested parameter 2
-// function Manf(...b: number[]): void {
-//   let mafiNatija = 0;
-//   for (let numManfi of b) {
-//     mafiNatija += numManfi;
-//   }
-//   console.log(mafiNatija);
-// }
-// Manf(100, 100, 400, 12);
-// // in the class
-// let g: string;
-// function Hi(name: string, age?: number): never {
-//   while (true) {
-//     g = "Hello world";
-//   }
-// }
-// // enum => عبارت از قیمت های ثابت است که هرگز تغیر نمی کند و یک بار نوشته میکنی و بار ها استفاده میکنی
-// // enum use for => group, constant
-// enum Colors {
-//   red = "Red Color",
-//   blue = "Blue Color",
-//   black = "Black Color",
-//   green = "Green Color",
-//   white = "White Color",
-//   yellow = "Yellow Color",
-//   gray = "Gray Color",
-// }
-// console.log(Colors.yellow);
-// // tuple => like array
-// let tupleArr: [string, number, boolean, string] = ["Ali", 17, true, "Male"];
-// console.log(tupleArr[3]);
-// // 2
-// const tupleArr2: [string, string, boolean, number] = [
-//   "Mohammad",
-//   "Mohammadi",
-//   true,
-//   17,
-// ];
-// console.log(tupleArr2[0]);
+function zarb(a, b) {
+    if (typeof a === "number" && typeof b === "number") {
+        return a * b;
+    }
+    if (typeof a === "string" && typeof b === "string") {
+        return a + b;
+    }
+    throw new Error("Invalid Data Type");
+}
+console.log(zarb(9, 5));
+console.log(zarb("Mohammad ", "Ali"));
+function myEg(z, y) {
+    if (typeof z === "string" && typeof y === "string") {
+        return z + y;
+    }
+    if (typeof z === "number" && typeof y === "number") {
+        return z + y;
+    }
+    throw new Error("Your message is not valid!");
+}
+console.log(myEg(30, 33));
+console.log(myEg("Murtaza ", "Yaqobi"));
+console.log(myEg("Murtaza ", true));
