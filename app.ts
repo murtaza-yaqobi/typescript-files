@@ -116,6 +116,7 @@ function zarb(a: number | string, b: number | string): number | string {
     return a * b;
   }
   if (typeof a === "string" && typeof b === "string") {
+    
     return a + b;
   }
   throw new Error("Invalid Data Type");
