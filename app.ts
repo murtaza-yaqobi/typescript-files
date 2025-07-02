@@ -116,7 +116,6 @@ function zarb(a: number | string, b: number | string): number | string {
     return a * b;
   }
   if (typeof a === "string" && typeof b === "string") {
-    
     return a + b;
   }
   throw new Error("Invalid Data Type");
@@ -137,4 +136,4 @@ function myEg(z: string | number, y: string | number): string | number {
   throw new Error("Your message is not valid!");
 }
 console.log(myEg(30, 33));
-console.log(myEg("Murtaza ", "Yaqobi"));
+console.log(myEg("Murtaza ", "Mohammadi"));
