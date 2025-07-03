@@ -123,7 +123,7 @@ function zarb(a: number | string, b: number | string): number | string {
 console.log(zarb(9, 5));
 console.log(zarb("Mohammad ", "Ali"));
 
-// my e.g: of function overloadin
+// my e.g: of function overloading
 function myEg(z: string, y: string): string;
 function myEg(z: number, y: number): number;
 function myEg(z: string | number, y: string | number): string | number {
