@@ -125,6 +125,7 @@ console.log(zarb("Mohammad ", "Ali"));
 
 // my e.g: of function overloading
 function myEg(z: string, y: string): string;
+
 function myEg(z: number, y: number): number;
 function myEg(z: string | number, y: string | number): string | number {
   if (typeof z === "string" && typeof y === "string") {
