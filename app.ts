@@ -135,5 +135,5 @@ function myEg(z: string | number, y: string | number): string | number {
   }
   throw new Error("Your message is not valid!");
 }
-console.log(myEg(50, 33));
+console.log(myEg(50, 60));
 console.log(myEg("Mohammad ", "Mohammadi"));
