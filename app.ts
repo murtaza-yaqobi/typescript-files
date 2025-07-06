@@ -137,5 +137,5 @@ function myEg(z: string | number, y: string | number): string | number {
 }
 console.log(myEg(50, 60));
 console.log(myEg("Murtaza", "Yaqobi"));
-console.log(myEg("Murtaza", "Yaqobi"));
+
 console.log(myEg(500, 1000));
