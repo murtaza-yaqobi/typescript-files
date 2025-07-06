@@ -139,4 +139,3 @@ console.log(myEg(50, 60));
 console.log(myEg("Murtaza", "Yaqobi"));
 console.log(myEg("Murtaza", "Yaqobi"));
 console.log(myEg(500, 1000));
-console.log(myEg(500, 1000));
