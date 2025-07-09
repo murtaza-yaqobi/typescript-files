@@ -131,6 +131,7 @@ function myEg(z: string | number, y: string | number): string | number {
     return z + y;
   }
   if (typeof z === "number" && typeof y === "number") {
+    
     return z + y;
   }
   throw new Error("Your message is not valid!");
