@@ -169,4 +169,5 @@ function jaghori(
   }
   throw new Error("Function overloading Error💀");
 }
-console
+console.log(jaghori("Hutqoli ", "Boy"));
+
