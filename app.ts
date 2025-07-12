@@ -138,3 +138,35 @@ function myEg(z: string | number, y: string | number): string | number {
 console.log(myEg(50, 60));
 console.log(myEg("Murtaza", "Yaqobi"));
 console.log(myEg(500, 1000));
+
+// eg: of function overloading
+function eg(a1: string, b1: string): string;
+function eg(a1: number, b1: number): number;
+function eg(a1: string | number, b1: string | number): string | number {
+  if (typeof a1 === "string" && typeof b1 === "string") {
+    return a1 + b1;
+  }
+  if (typeof a1 === "number" && typeof b1 === "number") {
+    return a1 * b1;
+  }
+  throw new Error("Here is an new Error");
+}
+console.log(eg(4, 4));
+console.log("Mohammad", "Ali");
+
+// eg: of function overloading 3
+function jaghori(hutqol: number, angori: number): number;
+function jaghori(hutqol: string, angori: string): string;
+function jaghori(
+  hutqol: number | string,
+  angori: number | string
+): number | string {
+  if (typeof hutqol === "number" && typeof angori === "number") {
+    return hutqol - angori;
+  }
+  if (typeof hutqol === "string" && typeof angori === "string") {
+    return hutqol + angori;
+  }
+  throw new Error("Function overloading Error💀");
+}
+console

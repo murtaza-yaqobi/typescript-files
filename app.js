@@ -39,6 +39,17 @@ function myEg(z, y) {
     }
     throw new Error("Your message is not valid!");
 }
-console.log(myEg(30, 33));
-console.log(myEg("Murtaza ", "Yaqobi"));
-console.log(myEg("Murtaza ", true));
+console.log(myEg(50, 60));
+console.log(myEg("Murtaza", "Yaqobi"));
+console.log(myEg(500, 1000));
+function eg(a1, b1) {
+    if (typeof a1 === "string" && typeof b1 === "string") {
+        return a1 + b1;
+    }
+    if (typeof a1 === "number" && typeof b1 === "number") {
+        return a1 * b1;
+    }
+    throw new Error("Here is an new Error");
+}
+console.log(eg(4, 4));
+console.log("Mohammad", "Ali");
