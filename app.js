@@ -53,3 +53,14 @@ function eg(a1, b1) {
 }
 console.log(eg(4, 4));
 console.log("Mohammad", "Ali");
+function jaghori(hutqol, angori) {
+    if (typeof hutqol === "number" && typeof angori === "number") {
+        return hutqol - angori;
+    }
+    if (typeof hutqol === "string" && typeof angori === "string") {
+        return hutqol + angori;
+    }
+    throw new Error("Function overloading Error💀");
+}
+console.log(jaghori("Hutqoli ", "Boy"));
+console.log(jaghori(100, 45));

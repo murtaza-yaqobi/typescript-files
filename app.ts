@@ -170,4 +170,4 @@ function jaghori(
   throw new Error("Function overloading Error💀");
 }
 console.log(jaghori("Hutqoli ", "Boy"));
-
+console.log(jaghori(100, 45));
