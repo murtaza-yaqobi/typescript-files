@@ -124,20 +124,20 @@ console.log(zarb(9, 5));
 console.log(zarb("Mohammad ", "Ali"));
 
 // my e.g: of function overloading
-function myEg(z: string, y: string): string;
-function myEg(z: number, y: number): number;
-function myEg(z: string | number, y: string | number): string | number {
-  if (typeof z === "string" && typeof y === "string") {
-    return z + y;
-  }
-  if (typeof z === "number" && typeof y === "number") {
-    return z + y;
-  }
-  throw new Error("Your message is not valid!");
-}
-console.log(myEg(50, 60));
-console.log(myEg("Murtaza", "Yaqobi"));
-console.log(myEg(500, 1000));
+// function myEg(z: string, y: string): string;
+// function myEg(z: number, y: number): number;
+// function myEg(z: string | number, y: string | number): string | number {
+//   if (typeof z === "string" && typeof y === "string") {
+//     return z + y;
+//   }
+//   if (typeof z === "number" && typeof y === "number") {
+//     return z + y;
+//   }
+//   throw new Error("Your message is not valid!");
+// }
+// console.log(myEg(50, 60));
+// console.log(myEg("Murtaza", "Yaqobi"));
+// console.log(myEg(500, 1000));
 
 // eg: of function overloading
 function eg(a1: string, b1: string): string;
