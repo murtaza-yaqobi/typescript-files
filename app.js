@@ -19,7 +19,7 @@ var b = {
     isstudent: true,
 };
 var s = b.isstudent === false ? " not " : " student ";
-console.log("My id number is ".concat(b.id, " and my last name is ").concat(b.name, " and I'm ").concat(s));
+console.log("My id number is ".concat(b.id, " and my last name is ").concat(b.name, " and I'm a ").concat(s));
 function zarb(a, b) {
     if (typeof a === "number" && typeof b === "number") {
         return a * b;
