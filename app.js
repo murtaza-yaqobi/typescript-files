@@ -13,12 +13,13 @@
 // console.log(
 //   `My id is ${objectOne.id} and my name is ${objectOne.nameFive} and I'm ${student}`
 // );
-// // function
-// // card 1
-// function Gretting(name: string): void {
-//   console.log(`Hello, ${name} welcome`);
-// }
-// Gretting("Murtaza");
+var b = {
+    id: 123,
+    name: "Yaqobi",
+    isstudent: true,
+};
+var s = b.isstudent === false ? " not " : " student ";
+console.log("My id number is ".concat(b.id, " and my last name is ").concat(b.name, " and I'm ").concat(s));
 function zarb(a, b) {
     if (typeof a === "number" && typeof b === "number") {
         return a * b;
@@ -30,18 +31,6 @@ function zarb(a, b) {
 }
 console.log(zarb(9, 5));
 console.log(zarb("Mohammad ", "Ali"));
-function myEg(z, y) {
-    if (typeof z === "string" && typeof y === "string") {
-        return z + y;
-    }
-    if (typeof z === "number" && typeof y === "number") {
-        return z + y;
-    }
-    throw new Error("Your message is not valid!");
-}
-console.log(myEg(50, 60));
-console.log(myEg("Murtaza", "Yaqobi"));
-console.log(myEg(500, 1000));
 function eg(a1, b1) {
     if (typeof a1 === "string" && typeof b1 === "string") {
         return a1 + b1;
@@ -60,7 +49,8 @@ function jaghori(hutqol, angori) {
     if (typeof hutqol === "string" && typeof angori === "string") {
         return hutqol + angori;
     }
-    throw new Error("Function overloading Error💀");
+    throw new Error("Function overloading Error!");
 }
-console.log(jaghori("Hutqoli ", "Boy"));
+console.log(jaghori("Murtaza", "Yaqobi"));
+console.log(jaghori(100, 300));
 console.log(jaghori(100, 45));
