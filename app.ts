@@ -20,7 +20,7 @@ const b: { id: number; name: string; isstudent: boolean } = {
 };
 let s = b.isstudent === false ? " not " : " student ";
 console.log(
-  `My id number is ${b.id} and my last name is ${b.name} and I'm a in${s}`
+  `My id number is ${b.id} and my last name is ${b.name} and I'm a ${s}`
 );
 // // function
 // // card 1
