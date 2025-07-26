@@ -18,6 +18,7 @@ const b: { id: number; name: string; isstudent: boolean } = {
   name: "Yaqobi",
   isstudent: true,
 };
+
 let s = b.isstudent === false ? " not " : " student ";
 console.log(
   `My id number is ${b.id} and my last name is ${b.name} and I'm a ${s}`
