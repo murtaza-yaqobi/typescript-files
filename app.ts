@@ -181,3 +181,4 @@ function jaghori(
 console.log(jaghori("Murtaza", "Yaqobi"));
 console.log(jaghori(100, 300));
 console.log(jaghori(100, 45));
+console.log(jaghori(100, 45));
