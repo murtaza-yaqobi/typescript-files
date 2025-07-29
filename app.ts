@@ -29,6 +29,8 @@ console.log(
 // }
 // Gretting("Murtaza");
 
+//
+
 // // card 2
 // function Numbers(number1: number, number2: number): number {
 //   return number1 + number2;
