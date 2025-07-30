@@ -179,6 +179,6 @@ function jaghori(
   throw new Error("Function overloading Error!");
 }
 console.log(jaghori("Murtaza", "Yaqobi"));
-console.log(jaghori("Murtaza", "Ahamdi"));
+console.log(jaghori("Ali", "Ahamdi"));
 console.log(jaghori(100, 300));
 console.log(jaghori(100, 45));
