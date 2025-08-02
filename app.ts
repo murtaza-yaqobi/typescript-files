@@ -23,7 +23,7 @@ console.log(
   `My id number is ${b.id} and my last name is ${b.name} and I'm a ${s}`
 );
 console.log(
-  `My id number is ${b.id} and my last name is ${b.name} and I'm a ${s}`
+  `My id is ${b.id} and my last name is ${b.name} and I'm a ${s}`
 );
 // // function
 // // card 1
