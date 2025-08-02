@@ -22,9 +22,7 @@ let s = b.isstudent === false ? " not " : " student ";
 console.log(
   `My id number is ${b.id} and my last name is ${b.name} and I'm a ${s}`
 );
-console.log(
-  `My id is ${b.id} and my last name is ${b.name} and I'm a ${s}`
-);
+
 // // function
 // // card 1
 // function Gretting(name: string): void {
